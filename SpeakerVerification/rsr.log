@@ -1,0 +1,41 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'local' profile ... [Warning: Could not launch SMPD process manager. Using fallback parallel
+mechanism.] 
+[> In parallel.internal.apishared.SmpdGateway.canUseSmpd (line 80)
+  In parallel.cluster.Local/hSubmitCommunicatingJob (line 22)
+  In parallel.job.CJSCommunicatingJob/submitOneJob (line 81)
+  In parallel.Job/submit (line 306)
+  In parallel.internal.pool.InteractiveClient/start (line 330)
+  In parallel.Pool>iStartClient (line 547)
+  In parallel.Pool.hBuildPool (line 439)
+  In parallel.internal.pool.doParpool (line 15)
+  In parpool (line 89)
+  In ivectorPartIII (line 17)] 
+connected to 12 workers.
+ feature loading started ...
+ feature loading finished.
+ loading TVS...
+ loading TVS finished.
+Loading i-vectors for male...
+Loading i-vectors for male finished.
+Loading i-vectors for female...
+Loading i-vectors for female finished.
+Loading trials...
+Transformations...
+Extracting models i-vectors...
+Scoring the verification trials for male ...
+[Warning: MATLAB has disabled some advanced graphics rendering features by
+switching to software OpenGL. For more information, click <a
+href="matlab:opengl('problems')">here</a>.] 
+Test finished, EER : 1.527979, MinDCF08 : 0.931039, , MinDCF10 : 0.051787
+Scoring the verification trials for female ...
+Test finished, EER : 1.775349, MinDCF08 : 0.935654, , MinDCF10 : 0.042495
